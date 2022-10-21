@@ -1,0 +1,9 @@
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;
+height: 0;}
+
+body {
+  background-image: url("./images/jeshoots-com-7VOyZ0-iO0o-unsplash.jpg"); 
+  background-size: cover;
+}
