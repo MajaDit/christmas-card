@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.container {
+.cards {
   margin: 10%;
   display: flex;
   gap: 5%;
