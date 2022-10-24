@@ -22,9 +22,9 @@ body {
 
 .card-form,
 .card-display {
-  border: solid black 1px;
-  min-height: 50vh;
   width: 25rem;
+  min-height: 60vh;
+  border: solid black 1px;
   text-align: center;
   padding: 0.5em;
 }
@@ -63,12 +63,14 @@ body {
 
 .card-display .title {
   font-family: "Dancing Script", cursive;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .card-display .greeting {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  padding: 5%;
+  line-height: 200%;
 }
