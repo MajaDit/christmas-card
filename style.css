@@ -51,8 +51,10 @@ body {
   font-weight: 600;
   padding: 4% 14%;
   border-radius: 180px;
+  border: solid black 1px;
   color: whitesmoke;
   background-color: #07ab35;
+  font-size: 0.8rem;
 }
 .card-display {
   background-image: url(/images/background.png);
