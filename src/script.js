@@ -1,8 +1,16 @@
-const form = document.getElementById("customize-form");
+const nameForm = document.getElementById("name");
+const greetingForm = document.getElementById("greeting");
 
-function submitForm(event){
+function submitName(event) {
   event.preventDefault();
-  console.log(event.target.value);
+  let name = document.getElementById("customize-name");
+  name.textContent = `${event.target.value}`;
+}
+function submitGreeting(event) {
+  event.preventDefault();
+  let greeting = document.getElementById("customize-greeting");
+  greeting.textContent = `${event.target.value}`;
 }
 
-form.addEventListener("change", submitForm);
+nameForm.addEventListener("change", submitName);
+greetingForm.addEventListener("change", submitGreeting);

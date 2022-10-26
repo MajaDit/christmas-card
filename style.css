@@ -43,7 +43,7 @@ body {
   font-size: 1rem;
   text-align: left;
   line-height: 300%;
-  padding: 5%
+  padding: 5%;
 }
 
 .card-form .save-card-button {
@@ -67,6 +67,9 @@ body {
   font-size: 1.8rem;
 }
 
+.card-display .name {
+  color: red;
+}
 .card-display .greeting {
   font-family: "Poppins", sans-serif;
   font-weight: 500;

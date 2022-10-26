@@ -16,32 +16,27 @@
             <div class="customization">
               <form id="customize-form">
                 <div>
-                  <label for="name">
-                    Name:
-                  </label>
-                  <input type="text" name="name"/>
+                  <label for="name"> Name: </label>
+                  <input type="text" name="name" id="name" />
                 </div>
                 <div>
-                  <label for="greeting">
-                    Christmas Greeting:
-                  </label>
-                  <input type="text" name="greeting"/>
+                  <label for="greeting"> Christmas Greeting: </label>
+                  <input type="text" name="greeting" id="greeting" />
                 </div>
               </form>
-              
             </div>
             <button class="save-card-button">Save Card</button>
           </div>
           <div class="card-display">
             <div class="title">
               <h1>NOW That's What</h1>
-              <h2><em>Blank</em></h2>
+              <h2 id="customize-name" class="name">
+                <em>"Enter Your Name"</em>
+              </h2>
               <h3>Calls Christmas</h3>
             </div>
             <div class="greeting">
-              <p>
-                Enter your Christmas greeting
-              </p>
+              <p id="customize-greeting">Enter your Christmas greeting</p>
             </div>
           </div>
         </div>
@@ -49,5 +44,4 @@
     </section>
     <script src="src/script.js"></script>
   </body>
-  </html>
-  
+</html>
