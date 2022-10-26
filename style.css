@@ -16,7 +16,6 @@ body {
   margin: 10%;
   display: flex;
   justify-content: center;
-
   gap: 5%;
 }
 
@@ -44,12 +43,13 @@ body {
   font-size: 1rem;
   text-align: left;
   line-height: 300%;
+  padding: 5%
 }
 
 .card-form .save-card-button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  padding: 4% 14%;
+  padding: 3% 10%;
   margin-top: 20%;
   border-radius: 180px;
   border: solid black 1px;
@@ -72,6 +72,6 @@ body {
   font-weight: 500;
   font-style: italic;
   font-size: 0.8rem;
-  padding: 5%;
+  padding: 15% 5% 5% 5%;
   line-height: 200%;
 }

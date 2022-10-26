@@ -14,8 +14,21 @@
           <div class="card-form">
             <h1>Created Your NOW Christmas Card</h1>
             <div class="customization">
-              <p>Name:</p>
-              <p>Christmas Greeting:</p>
+              <form id="customize-form">
+                <div>
+                  <label for="name">
+                    Name:
+                  </label>
+                  <input type="text" name="name"/>
+                </div>
+                <div>
+                  <label for="greeting">
+                    Christmas Greeting:
+                  </label>
+                  <input type="text" name="greeting"/>
+                </div>
+              </form>
+              
             </div>
             <button class="save-card-button">Save Card</button>
           </div>
@@ -27,13 +40,14 @@
             </div>
             <div class="greeting">
               <p>
-                Christmas Greeting Christmas Greeting Christmas
-                GreetingChristmas GreetingChristmas GreetingChristmas Greeting
+                Enter your Christmas greeting
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="src/script.js"></script>
   </body>
-</html>
+  </html>
+  
