@@ -8,7 +8,7 @@
 
 body {
   background-image: url("./images/background-smaller.jpg");
-  background-color: rgb(255, 0, 0, 0.8);
+  background-color: #ee1c25;
   background-size: cover;
   background-repeat: no-repeat;
 }
