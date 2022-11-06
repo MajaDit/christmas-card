@@ -19,21 +19,9 @@ function downloadURI(uri, name) {
   link.href = uri;
   link.click();
 }
-// function saveCard(event) {
-//   event.preventDefault();
-//   let holidayCard = document.getElementById("card-display");
-// html2canvas(holidayCard).then(function(canvas) {
-//    holidayCard.appendChild(canvas);
-// });
 
-//   html2canvas(saveButton, {
-//     let myImage = canvas.toDataURL("image/png");
-//     downloadURI("data:" + myImage, "HappyHolidays.png");
-//   });
-// };
 nameForm.addEventListener("change", submitName);
 greetingForm.addEventListener("change", submitGreeting);
-// saveButton.addEventListener("click", saveCard);
 
 html2canvas(
   (document.getElementById("save-card-button").onclick = function () {
