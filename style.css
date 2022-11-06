@@ -36,6 +36,8 @@ body {
 .card-form h1 {
   font-size: 1.8rem;
   font-weight: 600;
+  line-height: 150%;
+  color: #ee1c25;
 }
 
 .card-form .customization {
@@ -68,7 +70,7 @@ body {
 }
 
 .card-display .name {
-  color: red;
+  color: #ee1c25;
 }
 .card-display .greeting {
   font-family: "Poppins", sans-serif;
