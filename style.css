@@ -100,3 +100,13 @@ body {
   padding: 15% 5% 5% 5%;
   line-height: 200%;
 }
+
+@media (max-width: 800px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+  .card-display {
+    margin-top: 5%;
+    min-height: 70vh;
+  }
+}
