@@ -30,7 +30,7 @@ html2canvas(
       const base64image = canvas.toDataURL("image/png");
       var anchor = document.createElement("a");
       anchor.setAttribute("href", base64image);
-      anchor.setAttribute("download", "my-image.png");
+      anchor.setAttribute("download", "now-holiday-card.png");
       anchor.click();
       anchor.remove();
     });
