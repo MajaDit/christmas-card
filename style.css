@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
 }
 .cards {
-  margin: 10%;
+  margin: 5%;
   display: flex;
   justify-content: center;
   gap: 5%;
@@ -21,7 +21,9 @@ body {
 
 .card-form,
 .card-display {
-  width: 25rem;
+  max-width: 25rem;
+  min-width: 25rem;
+  max-height: 100vh;
   min-height: 60vh;
   border: solid black 1px;
   text-align: center;
@@ -48,11 +50,18 @@ body {
   padding: 5%;
 }
 
+.customization .greeting-customization {
+  min-width: 100%;
+  min-height: 6.25rem;
+  overflow: hidden;
+}
+
 .card-form .save-card-button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding: 3% 10%;
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 5%;
   border-radius: 180px;
   border: solid black 1px;
   color: whitesmoke;
