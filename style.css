@@ -105,6 +105,14 @@ body {
   .cards {
     flex-wrap: wrap;
   }
+
+  .card-form,
+  .card-display {
+    min-width: 80%;
+  }
+  .card-form {
+    min-height: 50vh;
+  }
   .card-display {
     margin-top: 5%;
     min-height: 70vh;
