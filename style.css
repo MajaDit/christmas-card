@@ -50,10 +50,14 @@ body {
   padding: 5%;
 }
 
+.customization input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  outline: none;
+}
 .customization .greeting-customization {
-  min-width: 100%;
-  min-height: 6.25rem;
-  overflow: hidden;
+  width: 100%;
 }
 
 .card-form .save-card-button {
