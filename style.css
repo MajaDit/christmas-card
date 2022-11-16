@@ -50,11 +50,18 @@ body {
   padding: 5%;
 }
 
+.customization label {
+  opacity: 80%;
+}
 .customization input {
   border: none;
   background-color: transparent;
   border-bottom: 1px solid black;
   outline: none;
+}
+
+.customization .name-customization {
+  margin-left: 10%;
 }
 .customization .greeting-customization {
   width: 100%;
