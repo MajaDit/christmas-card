@@ -118,3 +118,14 @@ body {
     min-height: 70vh;
   }
 }
+
+@media (max-width: 500px) {
+  .card-form h1,
+  .card-display .title {
+    font-size: 1.3rem;
+  }
+
+  .card-display .greeting {
+    font-size: 0.7rem;
+  }
+}
