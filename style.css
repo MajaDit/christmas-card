@@ -108,10 +108,12 @@ body {
 
   .card-form,
   .card-display {
-    min-width: 80%;
+    min-width: 80vw;
+    max-width: 80vw;
   }
   .card-form {
     min-height: 50vh;
+    max-height: 80vh;
   }
   .card-display {
     margin-top: 5%;
