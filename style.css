@@ -112,7 +112,7 @@ body {
     max-width: 80vw;
   }
   .card-form {
-    min-height: 50vh;
+    /* min-height: 50vh; */
     max-height: 80vh;
   }
   .card-display {
